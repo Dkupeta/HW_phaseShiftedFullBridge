@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "023925db-b261-4d49-8021-b7fbedb31565")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 48.26 38.1)
+		(size 22.86 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06f17702-cc55-4aae-a7a1-45d601339581")
+		(property "Sheetname" "controller"
+			(at 48.26 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 48.26 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "phaseshiftedFullBridge"
+				(path "/023925db-b261-4d49-8021-b7fbedb31565"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 39.37)
+		(size 25.4 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45e3cb10-32b9-458f-bff0-c6f5e3305582")
+		(property "Sheetname" "UCC27324P"
+			(at 107.95 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UCC27324P.kicad_sch"
+			(at 107.95 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "phaseshiftedFullBridge"
+				(path "/023925db-b261-4d49-8021-b7fbedb31565"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
