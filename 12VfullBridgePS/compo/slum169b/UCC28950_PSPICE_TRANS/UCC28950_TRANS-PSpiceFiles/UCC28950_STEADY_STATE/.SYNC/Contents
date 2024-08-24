@@ -1,0 +1,8 @@
+2
+keyed
+<Name><State><Vault><Branch><Version><DateFetched><Log><Conflict><StickyTag><MergedFrom>
+#%@ DEFINE PATH "\ELABTRANS_WS\ELABTRANS_DS\Part_Numbers\UCC28950\Release_Sankalp\PSPICE\UCC28950_PSPICE_TRANS\UCC28950_TRANS-PSpiceFiles\UCC28950_STEADY_STATE\.SYNC" %#
+#%@ DEFINE ROOTUID "ffd5dbe8aa54c4b4295628f9fbb382ea" %#
+<TRANS.sim><F><syncs://sync28306.design.ti.com:28308/Projects/ELABTRANS_DS/Part_Numbers/UCC28950/Release_Sankalp/PSPICE/UCC28950_PSPICE_TRANS/UCC28950_TRANS-PSpiceFiles/UCC28950_STEADY_STATE/TRANS.sim;><1><1.1><1563961099><><F><><><Checksum=f5fc36355ece60fc184d29a0a07ed83b><Size=1763><vctime=1563961099>
+
+

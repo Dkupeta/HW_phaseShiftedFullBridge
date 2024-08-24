@@ -1,0 +1,135 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "70b5704a-0342-4ad0-b489-549d9bd1da27")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 127 48.26) (xy 130.81 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "515c8a2f-9198-433b-baf4-e2d3aaed5786")
+	)
+	(label "DRV_C"
+		(at 69.85 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1808aa49-eeab-48d9-8002-2b41c05b877e")
+	)
+	(label "DRV_A"
+		(at 69.85 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34282a11-3652-456b-8f10-fb156e55c6c1")
+	)
+	(label "DRV_D"
+		(at 69.85 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43c7f592-e0cb-4fcd-a643-29e2e03c2d6e")
+	)
+	(label "DRV_B"
+		(at 69.85 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cafca6b9-7c32-4ca9-b8cf-f27b87c42848")
+	)
+	(label "SW_CD"
+		(at 69.85 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7c87aae-6e64-418e-87c1-f726e699bb18")
+	)
+	(label "SW_AB"
+		(at 69.85 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9d8a592-cdeb-47ee-8d2d-e6f69c1be07d")
+	)
+	(hierarchical_label "drv_A"
+		(shape input)
+		(at 127 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb446fdd-ec79-4f3c-af1f-ddc738c0e32d")
+	)
+	(sheet
+		(at 130.81 41.91)
+		(size 38.1 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 195 255 149 1.0000)
+		)
+		(uuid "b8424fd8-8a33-4e2b-a0f0-07d556a3fcff")
+		(property "Sheetname" "gan_FET"
+			(at 130.81 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FET_IN.kicad_sch"
+			(at 130.81 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12VfullBridgePS"
+				(path "/97292f8e-f0ed-4f83-9690-5399cbcfc30b/0ee6fbdb-0bcf-4fd7-82cc-2fda24e35738"
+					(page "12")
+				)
+			)
+		)
+	)
+)

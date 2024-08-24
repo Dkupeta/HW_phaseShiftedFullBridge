@@ -1,0 +1,80 @@
+(ExpressProject "UCC28950_TRANS"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\ucc28950pw_trans.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "ucc28950_trans.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries"
+      (File ".\ucc28950_trans.lib"
+        (Type "PSpiceLibrary")))
+    (Folder "Stimulus Files")
+    (Folder "Include Files")
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ucc28950_trans-pspicefiles\ucc28950_start_up\trans.sim"
+        (DisplayName "UCC28950_START_UP-TRANS")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ucc28950_trans-pspicefiles\ucc28950_steady_state\trans.sim"
+        (DisplayName "UCC28950_STEADY_STATE-TRANS")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\ucc28950_trans-pspicefiles\ucc28950_start_up\trans.sim")))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (0
+      (LibraryName "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_10.0\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (UCC28950PW_TRANS
+      (FullPartName "UCC28950PW.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\UCC28950\RELEASE_SANKALP\PSPICE\UCC28950_PSPICE_TRANS\UCC28950PW_TRANS.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "LIBRARY\PSPICE")
+  (MPSSessionName "x0273674")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 257 0 358"))
+      (Tab 0))))
